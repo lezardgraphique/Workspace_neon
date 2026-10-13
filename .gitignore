@@ -1,0 +1,30 @@
+# Build artifacts
+.gradle/
+build/
+*/build/
+
+# Local configuration
+local.properties
+
+# IDE files
+.idea/
+*.iml
+.DS_Store
+
+# Android artifacts
+*.apk
+*.aar
+*.ap_
+
+# Logs
+*.log
+
+# Sensitive environment variables
+.env
+
+# Kotlin / Gradle
+.kotlin/
+kotlin-js-store/yarn.lock.bak
+
+# Netlify
+.netlify
